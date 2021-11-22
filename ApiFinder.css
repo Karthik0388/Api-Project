@@ -1,0 +1,42 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #efefef;
+}
+
+#searchBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    height: 200px;
+    border-bottom: 2px solid #eee;
+}
+#searchBlock h1{
+    color: crimson;
+    text-transform: uppercase;
+}
+#searchBlock input{
+    width: 500px;
+    text-align: center;
+    height: 30px;
+}
+#searchBlock button{
+    width: 100px;
+    height: 30px;
+    background: crimson;
+    
+}
+
+#Output{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
